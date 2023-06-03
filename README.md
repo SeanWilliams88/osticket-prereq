@@ -22,8 +22,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
- Creating two virtual machines in microsoft azure
- Installing osTicket on a virtual machine
+Creating two virtual machines in microsoft azure
+
+Installing osTicket on a virtual machine
 - Item 3
 - Item 4
 - Item 5
