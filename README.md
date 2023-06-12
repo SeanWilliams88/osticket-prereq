@@ -55,7 +55,20 @@ Remember to consider factors such as security, performance, and cost optimizatio
 <img src="https://i.imgur.com/6BwflEQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To install osTicket on a virtual machine, follow these steps:
+
+1. Start by setting up a virtual machine with your desired operating system (e.g., Windows or Linux) on a platform like Azure or VMware.
+2. Access your virtual machine using remote desktop or SSH, depending on the operating system. This allows you to control and manage the virtual machine from your computer.
+3. On the virtual machine, download the latest version of osTicket from the official website or a trusted source.
+4. Once the download is complete, extract the osTicket files and copy them to a web server directory, such as /var/www/html for Linux or C:\inetpub\wwwroot for Windows.
+5. Ensure that the necessary dependencies, such as a web server (e.g., Apache or Nginx), PHP, and a database (e.g., MySQL or PostgreSQL), are installed and properly configured on the virtual machine.
+6. Create a new database for osTicket, and note down the database name, username, and password for future use.
+7. Open a web browser on your computer and enter the IP address or hostname of the virtual machine to access the osTicket installation wizard.
+8. Follow the on-screen instructions, providing the required information such as the database details, administrator email, and password.
+9. Complete the installation process, and once finished, you should be able to access osTicket by visiting the virtual machine's IP address or hostname in a web browser.
+10. Customize osTicket according to your needs, configure email settings for ticket notifications, and start using it to manage customer support requests.
+
+Remember to secure your virtual machine and osTicket installation by using strong passwords, keeping your software up to date, and following best practices for system administration.
 </p>
 <br />
 
@@ -63,6 +76,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/QJ7dYQP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To install Active Directory on a virtual machine, follow these steps:
+
+1. Set up a virtual machine with Windows Server as the operating system on a platform like Azure or VMware.
+2. Access the virtual machine using remote desktop or a similar method.
+3. Open the Server Manager and click on "Add roles and features" to start the installation wizard.
+4. Select "Active Directory Domain Services" as the role to install and follow the prompts to complete the installation.
+5. After the installation, a configuration wizard will appear. Choose the option to "Promote this server to a domain controller."
+6. Select the appropriate deployment type, such as adding a new forest or joining an existing forest.
+7. Provide the desired domain name, such as "mycompany.local," and set the domain and directory services restore mode passwords.
+8. Choose the appropriate domain controller options, such as DNS server and Global Catalog.
+9. Review the summary and click on "Install" to begin the Active Directory installation and configuration process.
+10. Once the installation is complete, the virtual machine will be configured as an Active Directory domain controller. You can now manage users, groups, and other domain-related settings.
+
+Remember to plan and design your Active Directory deployment carefully, considering factors such as domain naming, replication, and security. It's also important to keep your Active Directory environment secure by implementing best practices, such as regular backups, monitoring, and strong password policies.
 </p>
 <br />
